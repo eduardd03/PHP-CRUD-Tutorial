@@ -3,9 +3,9 @@ $host = "localhost";
 $user = "root";
 $password = "";
 $database = "php-crud-tutorial";
-$port = 3307;
+//$port = 3307;
 
-$connection = mysqli_connect($host, $user, $password, $database, $port);
+$connection = mysqli_connect($host, $user, $password, $database );
 
 if (mysqli_connect_error()) {
   echo "Error: Unable to connect to MySQL <br>";
